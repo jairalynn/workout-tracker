@@ -1,6 +1,8 @@
 # Workout Tracker
 
+Deployed Link: https://jairasworkout.herokuapp.com/
 
+<img src="./assets/workout.png">
 
 
 ## User Story
@@ -32,3 +34,7 @@ To deploy an application with a MongoDB database to Heroku, you'll need to set u
   * [Set Up MongoDB Atlas](../04-Important/MongoAtlas-Setup.md)
 
   * [Deploy with Heroku and MongoDB Atlas](../04-Important/MongoAtlas-Deploy.md)
+
+## Questions
+
+My email is arcilla.jaira@gmail.com and my Github is jairalynn
