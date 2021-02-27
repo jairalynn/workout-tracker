@@ -11,7 +11,9 @@ app.use(express.static("public"));
 app.use(require("./routes/apiroutes.js"));
 require("./routes/htmlroutes")(app);
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workoutdb", {
+const MONGODB_URI = "mongodb+srv://jairalynn:poopYOU21@cluster0.g2lhn.mongodb.net/workout?retryWrites=true&w=majority"
+
+mongoose.connect(MONGODB_URI, {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true
